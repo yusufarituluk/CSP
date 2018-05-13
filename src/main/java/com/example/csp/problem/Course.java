@@ -25,6 +25,14 @@ public class Course implements Variable {
         return this.name;
     }
 
+    public String getClassName() {
+        return className;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
     @Override
     public String toString() {
         return name;
@@ -36,5 +44,9 @@ public class Course implements Variable {
 
     public List<TimeInterval> getTimeIntervals() {
         return timeIntervals;
+    }
+
+    public boolean isConflicted(Course course){
+        return this.timeIntervals.stream().anyMatch(t -> course.getTimeIntervals().contains(t));
     }
 }

@@ -1,23 +1,22 @@
 package com.example.csp.problem;
 
 import com.example.csp.model.CSP;
-
+import org.graphstream.graph.Graph;
+import org.graphstream.graph.Node;
+import org.graphstream.graph.implementations.SingleGraph;
 import java.time.LocalTime;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
-public class TimeScheduleProblem extends CSP<Course, Classroom, CapacityConstraint>  {
+public class TimeScheduleProblem extends CSP<Course, Classroom, CapacityConstraint> {
 
-    private Ma
 
     public TimeScheduleProblem() {
-        generate();
-
+        generateProblem();
     }
 
-    public
-
-    public void generate() {
+    public void generateProblem() {
         TimeInterval timeInterval1 = new TimeInterval(LocalTime.parse("08:00:00"), LocalTime.parse("08:30:00"));
         TimeInterval timeInterval2 = new TimeInterval(LocalTime.parse("08:30:00"), LocalTime.parse("09:00:00"));
         TimeInterval timeInterval3 = new TimeInterval(LocalTime.parse("09:00:00"), LocalTime.parse("09:30:00"));
@@ -73,21 +72,11 @@ public class TimeScheduleProblem extends CSP<Course, Classroom, CapacityConstrai
         classrooms.add(classroomC01);
         this.domains = classrooms;
 
-        CapacityConstraint constraint1 = new CapacityConstraint(course1,  classroomC01);
-
-        CapacityConstraint constraint2 = new CapacityConstraint(course2,  classroomB01);
-        CapacityConstraint constraint3 = new CapacityConstraint(course2,  classroomC01);
-
-        CapacityConstraint constraint4 = new CapacityConstraint(course3,  classroomA01);
-        CapacityConstraint constraint5 = new CapacityConstraint(course3,  classroomB01);
-        CapacityConstraint constraint6 = new CapacityConstraint(course3,  classroomC01);
-
-        CapacityConstraint constraint7 = new CapacityConstraint(course4,  classroomA01);
-        CapacityConstraint constraint8 = new CapacityConstraint(course4,  classroomB01);
-        CapacityConstraint constraint9 = new CapacityConstraint(course4,  classroomC01);
-
-        CapacityConstraint constraint10 = new CapacityConstraint(course5,  classroomB01);
-        CapacityConstraint constraint11 = new CapacityConstraint(course5,  classroomC01);
+        CapacityConstraint constraint1 = new CapacityConstraint(course1, Arrays.asList(classroomC01));
+        CapacityConstraint constraint2 = new CapacityConstraint(course2, Arrays.asList(classroomB01,classroomC01));
+        CapacityConstraint constraint3 = new CapacityConstraint(course3, Arrays.asList(classroomA01,classroomB01,classroomC01));
+        CapacityConstraint constraint4 = new CapacityConstraint(course4, Arrays.asList(classroomA01,classroomB01,classroomC01));
+        CapacityConstraint constraint5 = new CapacityConstraint(course5, Arrays.asList(classroomB01,classroomC01));
 
 
         List<CapacityConstraint> constraints = new ArrayList<>();
@@ -96,13 +85,28 @@ public class TimeScheduleProblem extends CSP<Course, Classroom, CapacityConstrai
         constraints.add(constraint3);
         constraints.add(constraint4);
         constraints.add(constraint5);
-        constraints.add(constraint6);
-        constraints.add(constraint7);
-        constraints.add(constraint8);
-        constraints.add(constraint9);
-        constraints.add(constraint10);
-        constraints.add(constraint11);
         this.constraints = constraints;
     }
 
+    public void displaConstraintGraph() {
+        Graph graph = new SingleGraph("Constraint Graph", false, true);
+        this.variables.forEach(c1 -> {
+            try {
+                Node n = graph.addNode(c1.getName());
+                n.addAttribute("ui.label", c1.getClassName());
+            } catch (Exception e) { }
+            variables.forEach(c2 -> {
+                if (!c1.getName().equals(c2.getName()) && c1.isConflicted(c2)) {
+                    try {
+                        Node n =  graph.addNode(c2.getName());
+                        n.addAttribute("ui.label", c2.getClassName());
+                    } catch (Exception e) { }
+                    try {
+                        graph.addEdge(c1.getName() + c2.getName(), c1.getName(), c2.getName());
+                    } catch (Exception e) { }
+                }
+            });
+        });
+        //graph.display();
+    }
 }

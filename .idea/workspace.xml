@@ -160,11 +160,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomeController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HomeController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/csp/controller/HomeController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
-              <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+              <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#644#645#0" expanded="true" />
@@ -177,8 +177,8 @@
       <file leaf-file-name="Backtracking.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/Backtracking.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="39" selection-start-line="39" selection-end-line="54" selection-end-column="32" />
+            <state relative-caret-position="319">
+              <caret line="44" column="53" selection-start-line="44" selection-start-column="48" selection-end-line="44" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -211,11 +211,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Home.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Home.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/Home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="870">
-              <caret line="58" column="157" selection-start-line="58" selection-start-column="157" selection-end-line="58" selection-end-column="157" />
+            <state relative-caret-position="210">
+              <caret line="14" column="70" selection-start-line="14" selection-start-column="70" selection-end-line="14" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -250,8 +250,8 @@
       <file leaf-file-name="ForwardChecking.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/ForwardChecking.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="50" lean-forward="true" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+            <state relative-caret-position="336">
+              <caret line="37" column="49" lean-forward="true" selection-start-line="37" selection-start-column="49" selection-end-line="37" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -666,14 +666,14 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/hello.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/css/site.css" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/ConstraintGraph.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/Home.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/csp/problem/CapacityConstraint.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/Heuristics.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/csp/CspApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/csp/problem/Assignment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/csp/controller/HomeController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/Backtracking.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/ForwardChecking.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/csp/controller/HomeController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/Home.html" />
       </list>
     </option>
   </component>
@@ -1032,7 +1032,7 @@
       <workItem from="1526194754660" duration="21310000" />
       <workItem from="1526223965876" duration="3073000" />
       <workItem from="1526279922914" duration="18051000" />
-      <workItem from="1526315252732" duration="16806000" />
+      <workItem from="1526315252732" duration="17058000" />
     </task>
     <servers />
   </component>
@@ -1063,11 +1063,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59803000" />
+    <option name="totallyTimeSpent" value="60055000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -1087,11 +1086,11 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="8" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.17575757" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.42181817" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32939324" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2761087" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32848486" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2761087" />
       <window_info anchor="right" id="Bean Validation" order="4" />
       <window_info id="Web" order="3" side_tool="true" />
       <window_info id="Learn" order="2" />
@@ -1579,36 +1578,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/Backtracking.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="39" selection-start-line="39" selection-end-line="54" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/ForwardChecking.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="50" lean-forward="true" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/Home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="58" column="157" selection-start-line="58" selection-start-column="157" selection-end-line="58" selection-end-column="157" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/csp/controller/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+          <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#644#645#0" expanded="true" />
             <element signature="e#673#674#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/Backtracking.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="44" column="53" selection-start-line="44" selection-start-column="48" selection-end-line="44" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/ForwardChecking.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="37" column="49" lean-forward="true" selection-start-line="37" selection-start-column="49" selection-end-line="37" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/Home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="70" selection-start-line="14" selection-start-column="70" selection-end-line="14" selection-end-column="70" />
         </state>
       </provider>
     </entry>

@@ -58,6 +58,10 @@ public class Assignment {
                 .orElseThrow(UnassignedValueNotFound::new);
     }
 
+    public Map<Course, Classroom> getAssigments() {
+        return Collections.unmodifiableMap(assigments);
+    }
+
     @Override
     public String toString() {
         return "Assigments => " + assigments;

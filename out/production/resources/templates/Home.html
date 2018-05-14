@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>Home</title>
+    <link rel="stylesheet" href="/webjars/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/site.css" />
+</head>
+<body>
+<div id="wrapper">
+    <div class="navbar-default sidebar" role="navigation">
+        <div class="sidebar-nav navbar-collapse">
+            <ul class="nav" id="side-menu">
+                </li>
+                <li><a href="Home"><i class="fa fa-fw"></i>Home</a></li>
+                <li><a href="Backtracking"><i class="fa fa-fw"></i>Backtracking</a>
+                <li><a href="ForwardChecking"><i class="fa fa-fw"></i>Forward Checking</a>
+                <li><a href="Heuristics"><i class="fa fa-fw"></i>Heuristics</a>
+                <li><a href="ConstraintGraph"><i class="fa fa-fw"></i>Constraint Graph</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.sidebar-collapse -->
+    </div>
+    <!-- /.navbar-static-side -->
+
+
+    <div id="page-wrapper">
+        <div class="row">
+            <div class="col-lg-10">
+                <h1 class="page-header">HOME</h1>
+            </div>
+            <!-- /.col-lg-12 -->
+        </div>
+        <!-- /.row -->
+        <div class="row">
+            <div class="col-lg-10">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-lg-8">
+                                <p>You are tasked to schedule computer science courses that meets on Mondays.</p>
+                                <p></p>
+                                <p>Below are the 5 courses that meet and 3 classrooms to teach these courses. You are</p>
+                                <p>constrained by the fact that each classroom can only host one course at a time.</p>
+                                <p></p>
+                                <p>The courses are:</p>
+                                <p>• Class 1 - Intro to Programming: meets from 8:00-9:00am</p>
+                                <p>• Class 2 - Intro to Artificial Intelligence: meets from 8:30-9:30am</p>
+                                <p>• Class 3 - Image Processing: meets from 9:00-10:00am</p>
+                                <p>• Class 4 - Databases: meets from 9:00-10:00am</p>
+                                <p>• Class 5 - Computer Organization: meets from 9:30-10:30am</p>
+                                <p></p>
+                                <p>Due to the number of students that are enrolled and the classroom size:</p>
+                                <p> • A01, available to teach Classes 3 and 4.</p>
+                                <p> • B01, available to teach Classes 2, 3, 4, and 5.</p>
+                                <p>• C01, available to teach Classes 1, 2, 3, 4, 5</p>
+                                <p></p>
+                                <p>Considering these constraints and the problem described please implement a generic CSP algorithm to solve the problem.</p>
+                            </div>
+                        </div>
+                        <!-- /.row (nested) -->
+                    </div>
+                    <!-- /.panel-body -->
+                </div>
+                <!-- /.panel -->
+            </div>
+            <!-- /.col-lg-8 -->
+        </div>
+    </div>
+    <!-- /#page-wrapper -->
+</div>
+</body>
+</html>

@@ -1,9 +1,6 @@
 package com.example.csp.problem;
 
 import com.example.csp.model.CSP;
-import org.graphstream.graph.Graph;
-import org.graphstream.graph.Node;
-import org.graphstream.graph.implementations.SingleGraph;
 import java.time.LocalTime;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -88,25 +85,69 @@ public class TimeScheduleProblem extends CSP<Course, Classroom, CapacityConstrai
         this.constraints = constraints;
     }
 
-    public void displaConstraintGraph() {
-        Graph graph = new SingleGraph("Constraint Graph", false, true);
-        this.variables.forEach(c1 -> {
-            try {
-                Node n = graph.addNode(c1.getName());
-                n.addAttribute("ui.label", c1.getName());
-            } catch (Exception e) { }
-            variables.forEach(c2 -> {
-                if (!c1.getName().equals(c2.getName()) && c1.isConflicted(c2)) {
-                    try {
-                        Node n =  graph.addNode(c2.getName());
-                        n.addAttribute("ui.label", c2.getName());
-                    } catch (Exception e) { }
-                    try {
-                        graph.addEdge(c1.getName() + c2.getName(), c1.getName(), c2.getName());
-                    } catch (Exception e) { }
-                }
-            });
-        });
-        graph.display();
+    public Graph generateConstraintGraph(){
+        Graph graph = new Graph();
+        for (Course course1 : this.variables) {
+            graph.addNode(new Node(variables.indexOf(course1)+1, course1.getName()));
+            for (Course course2 : this.variables) {
+                if(variables.indexOf(course1) < variables.indexOf(course2) &&  course1.isConflicted(course2))
+                    graph.addEdge(new Edge(variables.indexOf(course1)+1, variables.indexOf(course2)+1));
+            }
+        }
+        return graph;
+    }
+
+    public class Node {
+        private Integer id;
+        private String label;
+
+        public Node(Integer id, String label) {
+            this.id = id;
+            this.label = label;
+        }
+
+        @Override
+        public String toString() {
+            return "{" + "id:" + id + ", label:\'" + label + "\'" + "}";
+        }
+    }
+
+    public class Edge {
+        private Integer from;
+        private Integer to;
+
+        public Edge(Integer from, Integer to) {
+            this.from = from;
+            this.to = to;
+        }
+        @Override
+        public String toString() {
+            return "{" + "from:" + from + ", to:" + to + "}";
+        }
+    }
+
+    public class Graph {
+        private List<Node> nodes = new ArrayList<>();
+        private List<Edge> edges = new ArrayList<>();
+
+        public List<Edge> getEdges() {
+            return edges;
+        }
+
+        public List<Node> getNodes() {
+            return nodes;
+        }
+
+        public void addNode(Node node){
+            nodes.add(node);
+        }
+        public void addEdge(Edge edge){
+            edges.add(edge);
+        }
+
+        @Override
+        public String toString() {
+            return "{" + "\"nodes\":" + nodes + ", \"edges\":" + edges + "}";
+        }
     }
 }

@@ -10,9 +10,19 @@ import java.util.Queue;
 
 public class Backtracking {
 
+    private TimeScheduleProblem csp;
+
     private Queue<Assignment> infrences = new LinkedList();
 
-    public Assignment solve(TimeScheduleProblem csp, Assignment assignment) {
+    public Backtracking(TimeScheduleProblem csp) {
+        this.csp = csp;
+    }
+
+    public Assignment solve(Assignment assignment) {
+        return solveInLoop(this.csp, assignment);
+    }
+
+    private Assignment solveInLoop(TimeScheduleProblem csp, Assignment assignment) {
         if (assignment.isCompleted())
             return assignment;
         Course course = assignment.selectUnassignedVariable();
@@ -21,7 +31,7 @@ public class Backtracking {
                 assignment.assign(course, classroom);
                 infrences.add(new Assignment(assignment));
                 if (csp.getConstraints().stream().allMatch(c -> c.isSatisfied(assignment))) {
-                    return solve(csp, assignment);
+                    return solveInLoop(csp, assignment);
                 }
             }
         }

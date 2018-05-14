@@ -2,71 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bfab459-dbb9-4ad6-a537-ec39503fb8ef" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_1_7_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_agent_1_7_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_minidev_json_smart_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_api_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_assertj_assertj_core_3_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_graphstream_gs_core_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_graphstream_mbox2_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_graphstream_pherd_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mockito_mockito_core_2_15_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_2_0_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_autoconfigure_2_0_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_2_0_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_logging_2_0_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_test_2_0_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_test_2_0_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_test_autoconfigure_2_0_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_aop_5_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_beans_5_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_context_5_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_core_5_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_expression_5_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_jcl_5_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_test_5_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_xmlunit_xmlunit_core_2_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_yaml_snakeyaml_1_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/csp.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/csp_main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/csp_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/csp/exception/UnassignedValueNotFound.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/csp/solution/Backtracking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/4.5.1/fileContent/annotation-processors.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/4.5.1/fileContent/fileContent.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/4.5.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/4.5.1/taskHistory/taskHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/4.5.1/taskHistory/taskHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/csp/CspApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/csp/exception/UnassignedValueNotFound.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/csp/model/CSP.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/csp/model/Constraint.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/csp/model/Domain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/csp/model/Variable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/csp/problem/Assignment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/csp/problem/CapacityConstraint.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/csp/problem/Classroom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/csp/problem/Course.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/csp/problem/TimeInterval.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/csp/problem/TimeScheduleProblem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/csp/solution/Backtracking.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/csp/solution/Heuristic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/example/csp/solution/Heuristic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/classes/com/example/csp/CspApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/csp/solution/ForwardChecking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/csp/solution/Heuristic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.5.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.5.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/csp/CspApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/example/csp/CspApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/csp/model/CSP.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/example/csp/model/CSP.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/csp/model/Constraint.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/example/csp/model/Constraint.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/csp/problem/Course.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/example/csp/problem/Course.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/csp/problem/TimeConstraint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/csp/problem/TimeSchedule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/csp/problem/CapacityConstraint.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/example/csp/problem/CapacityConstraint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/csp/problem/TimeScheduleProblem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/example/csp/problem/TimeScheduleProblem.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/csp/CspApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/csp/CspApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/csp/model/CSP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/csp/model/CSP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/csp/problem/Assignment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/csp/problem/Assignment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/csp/problem/CapacityConstraint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/csp/problem/CapacityConstraint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/csp/problem/Classroom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/csp/problem/Classroom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/csp/problem/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/csp/problem/Course.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/csp/problem/TimeConstraint.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/csp/problem/TimeScheduleProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/csp/problem/TimeScheduleProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/csp/solution/Backtracking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/csp/solution/Backtracking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/csp/CspApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/csp/CspApplicationTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -145,8 +119,29 @@
       <file leaf-file-name="CspApplication.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/csp/CspApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+            <state relative-caret-position="90">
+              <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CspApplicationTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/example/csp/CspApplicationTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ForwardChecking.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/csp/solution/ForwardChecking.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -157,41 +152,14 @@
       <file leaf-file-name="Assignment.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/csp/problem/Assignment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="569">
-              <caret line="62" column="44" selection-start-line="62" selection-start-column="44" selection-end-line="62" selection-end-column="44" />
+            <state relative-caret-position="600">
+              <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
               <folding>
-                <element signature="e#430#431#0" expanded="true" />
-                <element signature="e#474#475#0" expanded="true" />
-                <element signature="e#398#399#0" expanded="true" />
-                <element signature="e#448#449#0" expanded="true" />
                 <element signature="e#1064#1065#0" expanded="true" />
                 <element signature="e#1109#1110#0" expanded="true" />
-                <element signature="e#1144#1145#0" expanded="true" />
-                <element signature="e#1234#1235#0" expanded="true" />
                 <element signature="e#1888#1889#0" expanded="true" />
-                <element signature="e#1943#1944#0" expanded="true" />
+                <element signature="e#1940#1941#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TimeScheduleProblem.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/csp/problem/TimeScheduleProblem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-56">
-              <caret line="80" selection-start-line="80" selection-end-line="80" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Map.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/util/Map.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="516">
-              <caret line="211" column="6" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -199,20 +167,37 @@
       <file leaf-file-name="Backtracking.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/csp/solution/Backtracking.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="555">
+              <caret line="37" column="32" lean-forward="true" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#443#444#0" expanded="true" />
+                <element signature="e#473#474#0" expanded="true" />
+                <element signature="e#527#528#0" expanded="true" />
+                <element signature="e#556#557#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Queue.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/util/Queue.java">
+      <file leaf-file-name="Constraint.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/csp/model/Constraint.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-709">
-              <caret line="143" column="17" selection-start-line="143" selection-start-column="17" selection-end-line="143" selection-end-column="17" />
+            <state relative-caret-position="60">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TimeScheduleProblem.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/csp/problem/TimeScheduleProblem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="88" column="5" lean-forward="true" selection-start-line="88" selection-start-column="5" selection-end-line="88" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#generateProblem#0;class#TimeScheduleProblem#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -220,11 +205,11 @@
       <file leaf-file-name="Classroom.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/csp/problem/Classroom.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
+            <state relative-caret-position="195">
               <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
               <folding>
                 <element signature="e#336#337#0" expanded="true" />
-                <element signature="e#359#360#0" expanded="true" />
+                <element signature="e#368#369#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -233,8 +218,8 @@
       <file leaf-file-name="Course.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/csp/problem/Course.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="48" column="24" lean-forward="true" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="31" />
+            <state relative-caret-position="300">
+              <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
               <folding>
                 <element signature="e#547#548#0" expanded="true" />
                 <element signature="e#579#580#0" expanded="true" />
@@ -246,10 +231,11 @@
       <file leaf-file-name="CapacityConstraint.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/csp/problem/CapacityConstraint.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="315">
+              <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#624#625#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -263,6 +249,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>assigments</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -498,7 +489,7 @@
     <option name="modificationStamps">
       <map>
         <entry key="$USER_HOME$/.gradle/gradle.properties" value="3966744051" />
-        <entry key="$PROJECT_DIR$" value="7625309732000" />
+        <entry key="$PROJECT_DIR$" value="7625372420000" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/build.gradle" value="3564017997" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="2881256037" />
@@ -639,14 +630,18 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/example/csp/model/CSP.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/csp/problem/Course.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/csp/exception/Invalis.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/csp/exception/UnassignedValueNotFound.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/csp/problem/Classroom.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/csp/problem/CapacityConstraint.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/csp/problem/Heuristic.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/csp/problem/Course.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/csp/solution/Heuristic.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/csp/problem/TimeScheduleProblem.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/csp/solution/Backtracking.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/csp/problem/Assignment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/csp/solution/ForwardChecking.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/csp/solution/Backtracking.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/csp/CspApplicationTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/csp/CspApplication.java" />
       </list>
     </option>
@@ -657,7 +652,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="y" value="23" />
     <option name="width" value="2560" />
     <option name="height" value="1366" />
@@ -670,8 +665,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -733,17 +726,6 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
               <item name="csp" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="csp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AI-HW002" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="csp" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -770,112 +752,100 @@
             </path>
             <path>
               <item name="csp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="AI-HW002" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="csp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="csp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="csp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="AI-HW002" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="csp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AI-HW002" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="csp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AI-HW002" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="csp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AI-HW002" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="csp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="csp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="csp" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="csp" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="function" type="462c0819:PsiDirectoryNode" />
+              <item name="nashorn.jar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="csp" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.graphstream:gs-core:1.1.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="nashorn.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="jdk" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="csp" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.graphstream:gs-core:1.1.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="gs-core-1.1.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="nashorn.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="jdk" type="462c0819:PsiDirectoryNode" />
+              <item name="nashorn" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="csp" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.graphstream:gs-core:1.1.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="gs-core-1.1.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="nashorn.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="jdk" type="462c0819:PsiDirectoryNode" />
+              <item name="nashorn" type="462c0819:PsiDirectoryNode" />
+              <item name="internal" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="csp" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.graphstream:gs-core:1.1.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="gs-core-1.1.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="graphstream" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="csp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.graphstream:gs-core:1.1.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="gs-core-1.1.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="graphstream" type="462c0819:PsiDirectoryNode" />
-              <item name="graph" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="csp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.graphstream:gs-core:1.1.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="gs-core-1.1.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="graphstream" type="462c0819:PsiDirectoryNode" />
-              <item name="graph" type="462c0819:PsiDirectoryNode" />
-              <item name="implementations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="csp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.graphstream:gs-core:1.1.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="gs-core-1.1.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="graphstream" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="csp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.graphstream:gs-core:1.1.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="gs-core-1.1.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="graphstream" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-              <item name="swingViewer" type="462c0819:PsiDirectoryNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="nashorn.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="jdk" type="462c0819:PsiDirectoryNode" />
+              <item name="nashorn" type="462c0819:PsiDirectoryNode" />
+              <item name="internal" type="462c0819:PsiDirectoryNode" />
+              <item name="ir" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -898,7 +868,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.CspApplicationTests.testConstraintGraphGeneration">
     <configuration name="CspApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.csp.CspApplication" />
       <module name="csp_main" />
@@ -912,6 +882,98 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="CspApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="csp_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.csp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.example.csp" />
+      <option name="MAIN_CLASS_NAME" value="com.example.csp.CspApplicationTests" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="CspApplicationTests.testBacktrackingAlgorithm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="csp_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.csp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.example.csp" />
+      <option name="MAIN_CLASS_NAME" value="com.example.csp.CspApplicationTests" />
+      <option name="METHOD_NAME" value="testBacktrackingAlgorithm" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="CspApplicationTests.testConstraintGraphGeneration" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="csp_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.csp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.example.csp" />
+      <option name="MAIN_CLASS_NAME" value="com.example.csp.CspApplicationTests" />
+      <option name="METHOD_NAME" value="testConstraintGraphGeneration" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="CspApplicationTests.testHeuristicMethods" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="csp_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.csp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.example.csp" />
+      <option name="MAIN_CLASS_NAME" value="com.example.csp.CspApplicationTests" />
+      <option name="METHOD_NAME" value="testHeuristicMethods" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -951,8 +1013,19 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="Application.CspApplication" />
+      <item itemvalue="JUnit.CspApplicationTests.testBacktrackingAlgorithm" />
+      <item itemvalue="JUnit.CspApplicationTests" />
+      <item itemvalue="JUnit.CspApplicationTests.testHeuristicMethods" />
+      <item itemvalue="JUnit.CspApplicationTests.testConstraintGraphGeneration" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CspApplicationTests.testConstraintGraphGeneration" />
+        <item itemvalue="JUnit.CspApplicationTests.testHeuristicMethods" />
+        <item itemvalue="JUnit.CspApplicationTests.testBacktrackingAlgorithm" />
+        <item itemvalue="JUnit.CspApplicationTests" />
         <item itemvalue="Application.CspApplication" />
       </list>
     </recent_temporary>
@@ -968,49 +1041,73 @@
       <option name="presentableId" value="Default" />
       <updated>1526155982017</updated>
       <workItem from="1526155986867" duration="563000" />
-      <workItem from="1526194754660" duration="17246000" />
+      <workItem from="1526194754660" duration="21310000" />
+      <workItem from="1526223965876" duration="3073000" />
+      <workItem from="1526279922914" duration="4487000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="CspApplicationTests_testBacktrackingAlgorithm - 2018.05.13 at 16h 32m 57s.xml">
+      <configuration name="CspApplicationTests.testBacktrackingAlgorithm" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CspApplicationTests_testBacktrackingAlgorithm - 2018.05.13 at 16h 33m 40s.xml">
+      <configuration name="CspApplicationTests.testBacktrackingAlgorithm" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CspApplicationTests - 2018.05.13 at 16h 34m 21s.xml">
+      <configuration name="CspApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CspApplicationTests_testBacktrackingAlgorithm - 2018.05.13 at 16h 34m 36s.xml">
+      <configuration name="CspApplicationTests.testBacktrackingAlgorithm" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CspApplicationTests_testHeuristicMethods - 2018.05.13 at 16h 35m 57s.xml">
+      <configuration name="CspApplicationTests.testHeuristicMethods" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CspApplicationTests_testConstraintGraphGeneration - 2018.05.13 at 16h 37m 22s.xml">
+      <configuration name="CspApplicationTests.testConstraintGraphGeneration" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CspApplicationTests_testConstraintGraphGeneration - 2018.05.13 at 16h 38m 41s.xml">
+      <configuration name="CspApplicationTests.testConstraintGraphGeneration" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17809000" />
+    <option name="totallyTimeSpent" value="29433000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="2560" height="1366" extended-state="1" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.32848486" />
-      <window_info anchor="right" id="Database" order="3" weight="0.3297568" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32848486" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29090908" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29090908" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32969698" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32939324" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14455917" />
+      <window_info anchor="right" id="Database" order="3" weight="0.3297568" />
       <window_info id="Learn" order="2" />
       <window_info anchor="right" id="Gradle" order="3" weight="0.3297568" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32848486" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.32848486" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32969698" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1024,12 +1121,18 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/example/csp/solution/Backtracking.java</url>
-          <line>15</line>
+          <line>25</line>
           <properties />
           <option name="timeStamp" value="20" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/csp/solution/ForwardChecking.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="21" />
+      <option name="time" value="24" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -1069,6 +1172,190 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/csp/CspApplication.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/csp/CspApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="47" column="10" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/csp/solution/Backtracking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="14" column="76" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#556#557#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/csp/model/Constraint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/csp/problem/TimeScheduleProblem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#generateProblem#0;class#TimeScheduleProblem#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/csp/problem/Classroom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+          <folding>
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/csp/problem/Course.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+          <folding>
+            <element signature="e#547#548#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/csp/problem/CapacityConstraint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/csp/solution/ForwardChecking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/csp/CspApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/csp/CspApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="47" column="10" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/csp/solution/Backtracking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="14" column="76" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#556#557#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/csp/model/Constraint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/csp/problem/TimeScheduleProblem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#generateProblem#0;class#TimeScheduleProblem#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/csp/problem/Classroom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+          <folding>
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/csp/problem/Course.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+          <folding>
+            <element signature="e#547#548#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/csp/problem/CapacityConstraint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/csp/solution/ForwardChecking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/csp/CspApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="76" selection-start-line="10" selection-start-column="76" selection-end-line="10" selection-end-column="76" />
           <folding>
@@ -1083,6 +1370,7 @@
           <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#generateProblem#0;class#TimeScheduleProblem#0" />
           </folding>
         </state>
       </provider>
@@ -1152,24 +1440,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
-          <folding>
-            <element signature="e#140#141#0" expanded="true" />
-            <element signature="e#170#171#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/csp/model/CSP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1187,16 +1457,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/csp/problem/CapacityConstraint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/csp/problem/TimeConstraint.java.bak" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/util/Map.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="516">
@@ -1204,10 +1465,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/util/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-677">
+          <caret line="143" column="17" selection-start-line="143" selection-start-column="17" selection-end-line="143" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/csp/problem/Course.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="48" column="24" lean-forward="true" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="31" />
+        <state relative-caret-position="300">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
           <folding>
             <element signature="e#547#548#0" expanded="true" />
             <element signature="e#579#580#0" expanded="true" />
@@ -1215,74 +1483,127 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/csp/model/Constraint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/csp/problem/Classroom.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
+        <state relative-caret-position="195">
           <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
           <folding>
             <element signature="e#336#337#0" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/csp/problem/CapacityConstraint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/csp/model/CSP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/csp/solution/Heuristic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/ext/nashorn.jar!/jdk/nashorn/internal/ir/Assignment.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/csp/problem/TimeScheduleProblem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-56">
-          <caret line="80" selection-start-line="80" selection-end-line="80" />
+        <state relative-caret-position="240">
+          <caret line="88" column="5" lean-forward="true" selection-start-line="88" selection-start-column="5" selection-end-line="88" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/util/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-709">
-          <caret line="143" column="17" selection-start-line="143" selection-start-column="17" selection-end-line="143" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/csp/solution/Backtracking.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#generateProblem#0;class#TimeScheduleProblem#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/csp/problem/Assignment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="62" column="44" selection-start-line="62" selection-start-column="44" selection-end-line="62" selection-end-column="44" />
+        <state relative-caret-position="600">
+          <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
           <folding>
-            <element signature="e#430#431#0" expanded="true" />
-            <element signature="e#474#475#0" expanded="true" />
-            <element signature="e#398#399#0" expanded="true" />
-            <element signature="e#448#449#0" expanded="true" />
             <element signature="e#1064#1065#0" expanded="true" />
             <element signature="e#1109#1110#0" expanded="true" />
-            <element signature="e#1144#1145#0" expanded="true" />
-            <element signature="e#1234#1235#0" expanded="true" />
             <element signature="e#1888#1889#0" expanded="true" />
-            <element signature="e#1943#1944#0" expanded="true" />
+            <element signature="e#1940#1941#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/csp/problem/TimeConstraint.java.bak">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/csp/solution/ForwardChecking.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" selection-end-line="22" />
+        <state relative-caret-position="360">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/csp/solution/Backtracking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="32" lean-forward="true" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#556#557#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/csp/CspApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/csp/CspApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        <state relative-caret-position="90">
+          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

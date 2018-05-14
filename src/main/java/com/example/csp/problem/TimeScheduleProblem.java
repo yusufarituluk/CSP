@@ -31,11 +31,11 @@ public class TimeScheduleProblem extends CSP<Course, Classroom, CapacityConstrai
         timeIntervals.add(timeInterval4);
         timeIntervals.add(timeInterval5);
 
-        Course course1 = new Course("C1", "Class 1", "Intro to Programming");
-        Course course2 = new Course("C2", "Class 2", "Intro to Artificial Intelligence");
-        Course course3 = new Course("C3", "Class 3", "Image Processing");
-        Course course4 = new Course("C4", "Class 4", "Databases");
-        Course course5 = new Course("C5", "Class 5", "Computer Organization");
+        Course course1 = new Course("Course1", "Class 1", "Intro to Programming");
+        Course course2 = new Course("Course2", "Class 2", "Intro to Artificial Intelligence");
+        Course course3 = new Course("Course3", "Class 3", "Image Processing");
+        Course course4 = new Course("Course4", "Class 4", "Databases");
+        Course course5 = new Course("Course5", "Class 5", "Computer Organization");
 
         //C1 - 8:00 - 9:00
         course1.addTime(timeInterval1);
@@ -93,13 +93,13 @@ public class TimeScheduleProblem extends CSP<Course, Classroom, CapacityConstrai
         this.variables.forEach(c1 -> {
             try {
                 Node n = graph.addNode(c1.getName());
-                n.addAttribute("ui.label", c1.getClassName());
+                n.addAttribute("ui.label", c1.getName());
             } catch (Exception e) { }
             variables.forEach(c2 -> {
                 if (!c1.getName().equals(c2.getName()) && c1.isConflicted(c2)) {
                     try {
                         Node n =  graph.addNode(c2.getName());
-                        n.addAttribute("ui.label", c2.getClassName());
+                        n.addAttribute("ui.label", c2.getName());
                     } catch (Exception e) { }
                     try {
                         graph.addEdge(c1.getName() + c2.getName(), c1.getName(), c2.getName());
@@ -107,6 +107,6 @@ public class TimeScheduleProblem extends CSP<Course, Classroom, CapacityConstrai
                 }
             });
         });
-        //graph.display();
+        graph.display();
     }
 }

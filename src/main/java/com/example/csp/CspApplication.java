@@ -21,17 +21,17 @@ public class CspApplication {
         /**
          * Apply backtracking algorithm
          */
-        Assignment backtrackingAssignment = new Assignment(timeScheduleProblem.getVariables());
-        Backtracking backtracking = new Backtracking(timeScheduleProblem);
-        Assignment backtrackingSolution = backtracking.solve(backtrackingAssignment);
-        System.out.println(backtrackingSolution.toString());
+//        Assignment backtrackingAssignment = new Assignment(timeScheduleProblem.getVariables());
+//        Backtracking backtracking = new Backtracking(timeScheduleProblem);
+//        Assignment backtrackingSolution = backtracking.solve(backtrackingAssignment);
+//        System.out.println(backtrackingSolution.toString());
 
 
         /**
          * Diplay Heuristics of the problem
          */
-        System.out.println("Minimum Remaining Value : " + Heuristic.getMRV(timeScheduleProblem));
-        System.out.println("Least Constraining Value : " + Heuristic.getLCV(timeScheduleProblem));
+        //System.out.println("Minimum Remaining Value : " + Heuristic.getMRV(timeScheduleProblem));
+        //System.out.println("Least Constraining Value : " + Heuristic.getLCV(timeScheduleProblem));
 
 
 
@@ -47,7 +47,7 @@ public class CspApplication {
         /**
          * Displaying constraint graph of the problem
          */
-        timeScheduleProblem.displaConstraintGraph();
+        //timeScheduleProblem.displaConstraintGraph();
 
     }
 }

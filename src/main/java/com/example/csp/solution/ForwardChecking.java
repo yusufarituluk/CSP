@@ -1,13 +1,8 @@
 package com.example.csp.solution;
 
-import com.example.csp.problem.Assignment;
-import com.example.csp.problem.Classroom;
-import com.example.csp.problem.Course;
-import com.example.csp.problem.TimeScheduleProblem;
+import com.example.csp.problem.*;
 
-import java.util.Collections;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class ForwardChecking {
@@ -23,22 +18,31 @@ public class ForwardChecking {
 
     public Assignment solve(Assignment assignment) {
         for (Course courseX : csp.getVariables()) {
-            for (Classroom classroom : modifiedDomains.get(courseX)) {
-                assignment.assign(courseX, classroom);
+            if(!assignment.hasAssignment(courseX)) {
+                assignment.assign(courseX, selectValue(csp.getConstraints(), assignment, courseX));
                 csp.getVariables().stream()
                         .filter(c -> c.isConflicted(courseX))
-                        .filter(c -> modifiedDomains.size() > 1)
-                        .forEach(courseY -> {
-                            List<Classroom> classrooms = modifiedDomains.get(courseY);
-                            classrooms.forEach(d -> {
-                                        if (assignment.isConsistent(csp, courseY, d)) {
-                                            modifiedDomains.get(courseY).remove(d);
-                                        }
-                                    });
-                        });
+                        .filter(c -> assignment.getValue(c) == null)
+                        .forEach(courseY ->
+                                modifiedDomains.put(courseY, modifiedDomains.get(courseY).stream()
+                                        .filter(d -> assignment.isConsistent(csp, courseY, d))
+                                        .collect(Collectors.toList())));
             }
         }
+
         return assignment;
+    }
+
+    private Classroom selectValue(List<CapacityConstraint> constraints, Assignment assignment, Course course){
+        return modifiedDomains.get(course)
+                .stream()
+                .filter(classroom -> {
+                    Assignment temp = new Assignment(assignment);
+                    temp.assign(course, classroom);
+                    return  constraints.stream().allMatch(c -> c.isSatisfied(temp));
+                })
+                .findFirst()
+                .orElse(null);
     }
 
 }

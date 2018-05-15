@@ -53,6 +53,10 @@
                             </tr>
                             </tbody>
                         </table>
+                        <div th:switch="${result}">
+                            <p class="alert-success" th:case="true">SUCCESSFUL</p>
+                            <p class="alert-danger" th:case="false">FAIL</p>
+                        </div>
                     </div>
                     <!-- /.panel-body -->
                 </div>

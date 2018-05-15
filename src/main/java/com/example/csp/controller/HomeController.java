@@ -28,6 +28,7 @@ public class HomeController {
         Backtracking backtracking = new Backtracking(timeScheduleProblem);
         Assignment backtrackingSolution = backtracking.solve(backtrackingAssignment);
         model.addAttribute("assignments", backtrackingSolution.getAssigments());
+        model.addAttribute("result", (backtrackingSolution.isCompleted() && timeScheduleProblem.checkConstraints(backtrackingSolution)));
         return "Backtracking";
     }
 
@@ -37,6 +38,7 @@ public class HomeController {
         ForwardChecking forwardChecking = new ForwardChecking(timeScheduleProblem);
         Assignment forwardCheckingSolution = forwardChecking.solve(forwardCheckingAssignment);
         model.addAttribute("assignments", forwardCheckingSolution.getAssigments());
+        model.addAttribute("result", (forwardCheckingSolution.isCompleted() && timeScheduleProblem.checkConstraints(forwardCheckingSolution)));
         return "ForwardChecking";
     }
 
@@ -49,7 +51,7 @@ public class HomeController {
 
     @RequestMapping("/ConstraintGraph")
     public String getConstraintGraph(Model model) {
-        TimeScheduleProblem.Graph graph =timeScheduleProblem.generateConstraintGraph();
+        TimeScheduleProblem.Graph graph =timeScheduleProblem.getGraph();
         model.addAttribute("graph", graph);
         return "ConstraintGraph";
     }

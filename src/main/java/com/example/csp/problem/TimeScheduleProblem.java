@@ -8,9 +8,11 @@ import java.util.List;
 
 public class TimeScheduleProblem extends CSP<Course, Classroom, CapacityConstraint> {
 
+    private Graph graph;
 
     public TimeScheduleProblem() {
         generateProblem();
+        graph = generateConstraintGraph();
     }
 
     public void generateProblem() {
@@ -85,7 +87,15 @@ public class TimeScheduleProblem extends CSP<Course, Classroom, CapacityConstrai
         this.constraints = constraints;
     }
 
-    public Graph generateConstraintGraph(){
+    public boolean checkConstraints(Assignment assignment){
+        return this.getConstraints().stream().allMatch(c -> c.isSatisfied(assignment));
+    }
+
+    public Graph getGraph() {
+        return graph;
+    }
+
+    private Graph generateConstraintGraph(){
         Graph graph = new Graph();
         for (Course course1 : this.variables) {
             graph.addNode(new Node(variables.indexOf(course1)+1, course1.getName()));

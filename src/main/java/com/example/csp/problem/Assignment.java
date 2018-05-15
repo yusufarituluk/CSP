@@ -16,7 +16,7 @@ public class Assignment {
     }
 
     public Assignment(Assignment assigment) {
-        this.assigments = assigment.assigments;
+        this.assigments = new HashMap<>(assigment.assigments);
     }
 
     public boolean hasAssignment(Variable var) {

@@ -4,15 +4,13 @@ import com.example.csp.problem.Assignment;
 import com.example.csp.problem.Classroom;
 import com.example.csp.problem.Course;
 import com.example.csp.problem.TimeScheduleProblem;
-
-import java.util.LinkedList;
-import java.util.Queue;
+import java.util.Stack;
 
 public class Backtracking {
 
     private TimeScheduleProblem csp;
 
-    private Queue<Assignment> infrences = new LinkedList();
+    private Stack<Assignment> infrences = new Stack<>();
 
     public Backtracking(TimeScheduleProblem csp) {
         this.csp = csp;
@@ -29,12 +27,16 @@ public class Backtracking {
         for (Classroom classroom : csp.getDomains()) {
             if(assignment.isConsistent(csp, course, classroom)) {
                 assignment.assign(course, classroom);
-                infrences.add(new Assignment(assignment));
-                if (csp.getConstraints().stream().allMatch(c -> c.isSatisfied(assignment))) {
-                    return solveInLoop(csp, assignment);
+                infrences.push(new Assignment(assignment));
+                if (csp.checkConstraints(assignment)) {
+                    assignment = solveInLoop(csp, assignment);
+                    if(assignment.isCompleted()) return  assignment;
+                }
+                else{
+                    infrences.pop();
                 }
             }
         }
-        return infrences.poll();
+        return !infrences.empty() ? infrences.pop() : assignment;
     }
 }

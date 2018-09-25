@@ -4,10 +4,11 @@ Artificial Intelligence - Constraint Satisfaction Problem
 - Please run the project
 - Open the link : "http://localhost:8080/"
 
+# Defination
 
   Variables : Course 1, Course 2, Course 3, Course 4, Course 5
   
-  Domains : Di ={Classroom A01,Classroom B01,Classroom C01}
+  Domains : Di = {Classroom A01,Classroom B01,Classroom C01}
   
   Constraints : Courses whose times are conflicted must have different classes.
   
